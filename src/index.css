@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
+@layer utilities {
     .center {
         display: flex;
         justify-content: center;
@@ -16,7 +16,7 @@
     }
     .center-col-top {
         display: flex;
-        justify-content: start;
+        justify-content: flex-start;
         align-items: center;
         flex-direction: column;
     }
