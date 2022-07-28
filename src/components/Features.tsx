@@ -26,7 +26,7 @@ const Features: React.FC = () => {
                         description: 'Millions of users trust Shopify to manage their online stores.'
                     }
                 ].map(({ image, title, description }, index) => (
-                    <div className={'w-[300px] mr-6 last:mr-0'}>
+                    <div key={index} className={'w-[300px] mr-6 last:mr-0'}>
                         <img 
                             src={image}
                             alt={'Shopify Features'}
