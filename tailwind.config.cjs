@@ -5,14 +5,7 @@ module.exports = {
     './index.html'
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        'shopify': ['ShopifySans', 'Helvetica', 'Arial', 'sans-serif']
-      },
-      colors: {
-        'shopify-black': 'rgb(33, 35, 38)',
-      }
-    },
+    extend: {},
   },
   plugins: [],
 }
