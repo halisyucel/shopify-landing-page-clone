@@ -3,6 +3,23 @@
 @tailwind utilities;
 
 @layer components {
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .center-col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .center-col-top {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+    }
     .shopify-font {
         font-family: 'Shopify Sans Web Medium', Helvetica, Arial, sans-serif;
         letter-spacing: -1.49143px;
