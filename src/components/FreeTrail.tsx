@@ -8,7 +8,7 @@ export interface FreeTrailProps {
 
 const FreeTrail: React.FC<FreeTrailProps> = ({ className='' }) => {
     return (
-        <section className={`center-col ${className}`}>
+        <section className={`center-col mb-8 ${className}`}>
             <div className={'center w-full'}>
                 <TextInput
                     label={'Email address'}
