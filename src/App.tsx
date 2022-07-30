@@ -3,6 +3,7 @@ import Brands from './components/Brands';
 import CustomerComment from './components/CustomerComment';
 import Faqs from './components/Faqs';
 import Features from './components/Features';
+import Footer from './components/Footer';
 import FreeTrail from './components/FreeTrail';
 import Header from './components/Header';
 
@@ -16,6 +17,7 @@ const App: React.FC = () => {
 			<CustomerComment />
 			<FreeTrail className={'w-[632px]'} />
 			<Faqs />
+			<Footer />
 		</React.Fragment>
 	);
 }
