@@ -3,7 +3,7 @@ import Accordion from './Accordion';
 
 const Faqs: React.FC = () => {
     return (
-        <section className={'center-col mt-28 mb-28 w-[1025px]'}>
+        <section className={'center-col mt-28 mb-28 w-[1025px] lg:w-full lg:px-36 md:!px-14'}>
             <h2 className={'font-helvatica text-shopify-black font-extrabold text-5xl mb-14'}>FAQs</h2>
             <Accordion title={'What is Shopify and how does it work?'}>
                 <p>

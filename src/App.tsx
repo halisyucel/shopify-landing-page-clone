@@ -19,7 +19,7 @@ const App: React.FC = () => {
 			<Brands />
 			<CustomerComment />
 			<FreeTrail className={'w-[632px]'} />
-			{/* <Faqs /> */}
+			<Faqs />
 			<Footer />
 		</React.Fragment>
 	);
