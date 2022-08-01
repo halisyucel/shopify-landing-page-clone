@@ -4,7 +4,7 @@ import Accordion from './Accordion';
 const Faqs: React.FC = () => {
     return (
         <section className={'center-col mt-28 mb-28 w-[1025px]'}>
-            <h2 className={'shopify-font font-extrabold text-5xl mb-14'}>FAQs</h2>
+            <h2 className={'font-helvatica text-shopify-black font-extrabold text-5xl mb-14'}>FAQs</h2>
             <Accordion title={'What is Shopify and how does it work?'}>
                 <p>
                     Shopify is a complete commerce platform that lets you start, grow, and manage a business.

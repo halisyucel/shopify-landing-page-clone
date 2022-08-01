@@ -7,6 +7,9 @@ import Footer from './components/Footer';
 import FreeTrail from './components/FreeTrail';
 import Header from './components/Header';
 
+// TODO - Add responsive styling
+// TODO - Add meta tags
+
 const App: React.FC = () => {
 	return (
 		<React.Fragment>
@@ -16,7 +19,7 @@ const App: React.FC = () => {
 			<Brands />
 			<CustomerComment />
 			<FreeTrail className={'w-[632px]'} />
-			<Faqs />
+			{/* <Faqs /> */}
 			<Footer />
 		</React.Fragment>
 	);

@@ -8,14 +8,14 @@ export interface FreeTrailProps {
 
 const FreeTrail: React.FC<FreeTrailProps> = ({ className='' }) => {
     return (
-        <section className={`center-col mb-8 ${className}`}>
-            <div className={'center w-full'}>
+        <section className={`center-col mb-8 ${className} md:w-full md:px-8`}>
+            <div className={'center w-full sm:flex-col'}>
                 <TextInput
                     label={'Email address'}
                     placeholder={'Enter your email address'}
-                    className={'mr-4 flex-1'}
+                    className={'mr-4 flex-1 sm:w-full sm:mr-0'}
                 />
-                <Button>
+                <Button className={'sm:w-full sm:mt-4'}>
                     Start free trail
                 </Button>
             </div>
